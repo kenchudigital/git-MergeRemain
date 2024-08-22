@@ -21,3 +21,11 @@ Merge dev into main
 - Merged changes from dev into main branch
 ```
 6. `:q` and then `git push`
+
+<br>
+
+---
+
+## Why this is important?
+
+By setting up path names that correspond to different stages (e.g., production, staging, development), you can ensure that files are automatically routed to the appropriate locations. This setup is crucial for automating deployments and managing files efficiently within a CI/CD pipeline.
