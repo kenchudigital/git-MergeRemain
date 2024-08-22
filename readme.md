@@ -1,5 +1,7 @@
 branch: main
 
+## Git Merge for Muti-stage Depplyment
+
 content: This is dev final update, which will merge to main branch, and I need the branch name in main is no change.
 
 1. I created the `branch: main` in main branch
@@ -24,8 +26,11 @@ Merge dev into main
 
 <br>
 
----
 
 ## Why this is important?
 
 By setting up path names that correspond to different stages (e.g., production, staging, development), you can ensure that files are automatically routed to the appropriate locations. This setup is crucial for automating deployments and managing files efficiently within a CI/CD pipeline.
+
+## If only main branch update
+
+Please remember to `git fetch main` and then, `git merge main` to update the dev branch.
