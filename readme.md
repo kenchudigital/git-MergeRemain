@@ -1,6 +1,6 @@
 branch: main
 
-## Git Merge for Muti-stage Depplyment
+## Git Merge for Muti-stage Deployment
 
 content: This is dev final update, which will merge to main branch, and I need the branch name in main is no change.
 
